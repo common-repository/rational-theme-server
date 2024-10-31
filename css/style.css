@@ -1,0 +1,82 @@
+body {
+  padding-top: 98px !important; }
+
+.edd_purchase_submit_wrapper {
+  display: inline;
+  position: static; }
+  .edd_purchase_submit_wrapper a.edd-add-to-cart {
+    overflow: visible; }
+
+.rational-theme-server-bar {
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  color: #000;
+  font: normal normal 14px/1 sans-serif;
+  left: 0;
+  padding: 15px 15px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 99999; }
+  body.admin-bar .rational-theme-server-bar {
+    top: 46px; }
+  .rational-theme-server-bar, .rational-theme-server-bar * {
+    box-sizing: border-box; }
+  .rational-theme-server-bar .rts-download {
+    background-color: #06c;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    vertical-align: baseline; }
+    .rational-theme-server-bar .rts-download:focus {
+      text-decoration: none; }
+  .rational-theme-server-bar .rts-form {
+    margin: 0 auto;
+    max-width: 1200px; }
+  .rational-theme-server-bar .rts-label {
+    color: #ccc;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .rational-theme-server-bar .rts-select {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: none;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    height: 45px;
+    max-width: 100%;
+    vertical-align: baseline; }
+    .rational-theme-server-bar .rts-select:focus {
+      outline: none; }
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 75px !important; }
+
+  .rational-theme-server-bar {
+    text-align: right; }
+    .rational-theme-server-bar .rts-extra {
+      float: left; }
+    .rational-theme-server-bar .rts-label {
+      display: inline-block;
+      margin: 0 5px 0 0; }
+    .rational-theme-server-bar .rts-select {
+      width: auto; } }
+@media (min-width: 783px) {
+  body.admin-bar .rational-theme-server-bar {
+    top: 32px; } }
+@media (min-width: 1200px) {
+  body {
+    padding-top: 65px !important; }
+
+  .rational-theme-server-bar .rts-download, .rational-theme-server-bar .rts-select {
+    height: 35px;
+    line-height: 35px; } }
